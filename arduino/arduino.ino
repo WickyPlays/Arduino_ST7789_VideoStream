@@ -146,6 +146,7 @@ void setup()
   tft.init();
   tft.setRotation(0);
   tft.setSwapBytes(true);
+  tft.fillScreen(TFT_BLACK);
 
   jpgBuffer = (uint8_t *)malloc(JPG_MAX_SIZE);
 
