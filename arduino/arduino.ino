@@ -1,3 +1,4 @@
+// Code provided by Wicky
 #include <WiFi.h>
 #include <FS.h>
 #include <HTTPClient.h>
